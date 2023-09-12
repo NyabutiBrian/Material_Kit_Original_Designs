@@ -1,0 +1,140 @@
+/* NAVBAR HOVER */
+#navigation ul li a:hover {
+    color: #7b809a;
+}
+
+/* SVG SHAPES */
+.shape {
+    position: absolute;
+    z-index: 100;
+
+    animation: heroDecoAnim 3s linear infinite alternate;
+}
+@keyframes heroDecoAnim {
+    0% {
+        transform: translateY(40px) rotate(0);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0.4turn);
+    }
+}
+.shape-1 {
+    top: 6rem;
+    right: 3rem;
+}
+.shape-2 {
+    bottom: 10rem;
+    right: 20rem;
+}
+
+/* ZOOM TRANSITIONS ALL PAGES */
+#features .card,
+#btn-back-to-top,
+#recents .card img,
+#content .card img,
+#categoryposts .card img {
+    transition: all 0.3s;
+}
+#features .card:hover,
+#btn-back-to-top:hover,
+#recents .card img:hover,
+#content .card img:hover,
+#categoryposts .card img:hover {
+    transform: scale(1.05);
+}
+
+#categories .card,
+#contact img {
+    transition: all 0.3s;
+}
+#categories .card:hover,
+#contact img:hover {
+    transform: scale(0.95);
+}
+
+#recents a:hover,
+#categoryposts a:hover {
+    color:#1A73E8;
+}
+
+/* CAROUSEL */
+#carouselChange .carousel-caption {
+    position: absolute;
+    top: 6rem;
+}
+
+#carouselChange img {
+    width:100%;
+    height: 400px;
+}
+
+/* BACK TO TOP */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: none;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media (min-width: 576px){
+    /* SVG SHAPES */
+    .shape-1 {
+        top: 6rem;
+        right: 4rem;
+    }
+    .shape-2 {
+        bottom: 10rem;
+        right: 40rem;
+    }
+}
+
+@media (min-width: 767px){
+    /* SVG SHAPES */
+    .shape-1 {
+        top: 6rem;
+        right: 4rem;
+    }
+    .shape-2 {
+        bottom: 10rem;
+        right: 55rem;
+    }
+
+    /* CAROUSEL */
+    #carouselChange .carousel-caption {
+        position: absolute;
+        top: 15rem;
+    }
+    #carouselChange img {
+        width:100%;
+        height: 600px;
+    }
+}
+
+@media (min-width: 992px){
+    /* SVG SHAPES */
+    .shape-1 {
+        top: 6rem;
+        right: 4rem;
+    }
+    .shape-2 {
+        bottom: 10rem;
+        right: 30rem;
+    }
+}
+
+@media (min-width: 1400px){
+    /* SVG SHAPES */
+    .shape-1 {
+        top: 6rem;
+        right: 4rem;
+    }
+    .shape-2 {
+        bottom: 10rem;
+        right: 45rem;
+    }
+}
