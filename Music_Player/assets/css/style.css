@@ -1,0 +1,29 @@
+/* BODY COLOR */
+body {
+    background-color: #111;
+}
+
+.card {
+    background-color: #111;
+}
+
+/* CONTENT */
+#content .card img {
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+}
+
+
+/* MEDIA SCREENS */
+@media screen and (max-width: 767px){
+    /* TITLE */
+    #title h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 575px){
+    /* TITLE */
+    #title h1 {
+        font-size: 1.5rem;
+    }
+}
