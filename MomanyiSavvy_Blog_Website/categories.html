@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="MomanyiSavvy Blog Website">
+    <meta name="description" content="This is a Blog Website coded by Momanyi Brian">
+
+    <title>MomanyiSavvy Website</title>
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logofavicons/faviconDark/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logofavicons/faviconDark/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logofavicons/faviconDark/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/logofavicons/faviconDark/site.webmanifest">
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+    <!-- Nucleo Icons -->
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/a9cdceb046.js" crossorigin="anonymous"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- CSS Files -->
+    <link id="pagestyle" href="assets/css/material-kit.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body class="index-page bg-gray-900">
+
+    <!-- NAVBAR -->
+    <div class="container position-sticky z-index-sticky top-0">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-transluscent blur border-radius-xl top-0 z-index-fixed shadow position-absolute py-2 start-0 end-0 mx-4">
+                    <div class="container-fluid px-0">
+                        <a href="#" class="navbar-brand fw-bolder text-lg">
+                            <img src="assets/images/logofavicons/logoDark.png" alt="logo" width="40" height="">
+                        </a>
+                        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon mt-2">
+                                <span class="navbar-toggler-bar bar1"></span>
+                                <span class="navbar-toggler-bar bar2"></span>
+                                <span class="navbar-toggler-bar bar3"></span>
+                            </span>
+                        </button>
+    
+                        <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
+                            <ul class="navbar-nav navbar-nav-hover ms-auto align-items-center">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link ps-2 d-flex cursor-pointer"
+                                        aria-expanded="false">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#categoryposts" class="nav-link ps-2 d-flex cursor-pointer"
+                                        aria-expanded="false">Categories</a>
+                                </li>
+                                <li class="nav-item nav-link">
+                                    <a href="#" class="btn btn-sm bg-gradient-info mb-0 me-1 mt-md-0 mt-2"
+                                        aria-expanded="false" id="navchange">Porfolio</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <section id="carouselChange">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/cover.png" class="d-block w-100" alt="...">
+                                <span class="mask bg-gradient-dark opacity-8"></span>
+                                <div class="carousel-caption">
+                                    <h2 class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/frontend.webp" class="d-block w-100" alt="...">
+                                <span class="mask bg-gradient-dark opacity-8"></span>
+                                <div class="carousel-caption">
+                                    <h2 class="text-white">Lorem, ipsum dolor sit amet.</h2>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/backend.webp" class="d-block w-100" alt="...">
+                                <span class="mask bg-gradient-dark opacity-8"></span>
+                                <div class="carousel-caption">
+                                    <h2 class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD -->
+    <div class="card card-body shadow-blur mx-3 mx-md-4 mt-md-n6 mt-sm-n7 mt-n7">
+        <!-- CATEGORY POSTS -->
+        <section class="py-3 pt-xl-6" id="categoryposts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-9 col-12 mx-auto">
+                        <!-- SEARCH DISPLAY SM -->
+                        <div class="row mt-xl-4 mb-6 d-xl-none shadow-xl">
+                            <div class="col-12">
+                    
+                                <form action="">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                                            aria-describedby="button-addon2">
+                                        <button class="btn btn-info btn-lg" type="button" id="button-addon2">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                    
+                            </div>
+                        </div>
+
+                        <div class="card card-profile shadow-lg mt-4 mb-6">
+                            <a href="pages.html">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                                        <div class="p-3 pe-md-0">
+                                            <img class="w-100 border-radius-md shadow-lg" src="assets/images/bg1.webp" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-6 col-12 my-auto">
+                                        <div class="card-body ps-lg-0">
+                                            <h5 class="mb-0">Helpful Tips for Working from Home as a Freelancer</h5>
+                                            <p class="mb-0">
+                                                Gosh jaguar ostrich quail one excited dear hello and
+                                                bound and the and bland moral misheard roadrunner flapped
+                                                lynx far that and jeepers giggled far and far
+                                            </p>
+                                            <div class="mt-3 d-flex justify-content-between">
+                                                <h6 class="text-xs opacity-6">#css#coding</h6>
+                                                <h6 class="text-xs opacity-6"><i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card card-profile shadow-lg mt-4 mb-6">
+                            <a href="pages.html">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                                        <div class="p-3 pe-md-0">
+                                            <img class="w-100 border-radius-md shadow-lg" src="assets/images/bg1.webp" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-6 col-12 my-auto">
+                                        <div class="card-body ps-lg-0">
+                                            <h5 class="mb-0">Helpful Tips for Working from Home as a Freelancer</h5>
+                                            <p class="mb-0">
+                                                Gosh jaguar ostrich quail one excited dear hello and
+                                                bound and the and bland moral misheard roadrunner flapped
+                                                lynx far that and jeepers giggled far and far
+                                            </p>
+                                            <div class="mt-3 d-flex justify-content-between">
+                                                <h6 class="text-xs opacity-6">#css#coding</h6>
+                                                <h6 class="text-xs opacity-6"><i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card card-profile shadow-lg mt-4 mb-6">
+                            <a href="pages.html">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                                        <div class="p-3 pe-md-0">
+                                            <img class="w-100 border-radius-md shadow-lg" src="assets/images/bg1.webp" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-6 col-12 my-auto">
+                                        <div class="card-body ps-lg-0">
+                                            <h5 class="mb-0">Helpful Tips for Working from Home as a Freelancer</h5>
+                                            <p class="mb-0">
+                                                Gosh jaguar ostrich quail one excited dear hello and
+                                                bound and the and bland moral misheard roadrunner flapped
+                                                lynx far that and jeepers giggled far and far
+                                            </p>
+                                            <div class="mt-3 d-flex justify-content-between">
+                                                <h6 class="text-xs opacity-6">#css#coding</h6>
+                                                <h6 class="text-xs opacity-6"><i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card card-profile shadow-lg mt-4 mb-6">
+                            <a href="pages.html">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                                        <div class="p-3 pe-md-0">
+                                            <img class="w-100 border-radius-md shadow-lg" src="assets/images/bg1.webp" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-6 col-12 my-auto">
+                                        <div class="card-body ps-lg-0">
+                                            <h5 class="mb-0">Helpful Tips for Working from Home as a Freelancer</h5>
+                                            <p class="mb-0">
+                                                Gosh jaguar ostrich quail one excited dear hello and
+                                                bound and the and bland moral misheard roadrunner flapped
+                                                lynx far that and jeepers giggled far and far
+                                            </p>
+                                            <div class="mt-3 d-flex justify-content-between">
+                                                <h6 class="text-xs opacity-6">#css#coding</h6>
+                                                <h6 class="text-xs opacity-6"><i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-xl-5 col-lg-8 col-12 mx-auto">
+                        <!-- SEARCH DISPLAY XL-->
+                        <div class="row mb-3 d-xl-block d-none shadow-xl">
+                            <div class="col-12">
+                    
+                                <form action="">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                                            aria-describedby="button-addon2">
+                                        <button class="btn btn-info btn-lg" type="button" id="button-addon2">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                    
+                            </div>
+                        </div>
+
+                        <!-- FEATURES -->
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="mb-2 text-center">Featured and highly rated Articles</h4>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="card card-plain shadow-xl pt-2 px-3 my-3">
+                                <div class="card-header p-0 position-relative">
+                                    <a class="d-block blur-shadow-image">
+                                        <img src="assets/images/bg21.webp" alt="image"
+                                            class="img-fluid shadow border-radius-lg" loading="lazy">
+                                    </a>
+                                    <div class="mt-3 d-flex justify-content-between">
+                                        <h6 class="text-xs opacity-6">#css#coding</h6>
+                                        <h6 class="text-xs opacity-6"><i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="text-dark font-weight-bold mb-3">Bootstrap Your Projects</h5>
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="avatar avatar-sm shadow-xl position-relative z-index-2" src="assets/images/dp.webp" alt="dp" loading="lazy">
+                                            </div>
+                                            <div class="col-8 d-flex align-items-end ms-n1">
+                                                <p class="text-xs fw-bold">Admin <br> 5 Sep 2023</p>
+                                            </div>
+                                        </div>
+                                        <a href="pages.html">
+                                            <p class="text-info text-xs icon-move-right">Read More
+                                                <i class="fas fa-arrow-right text-xs ms-1"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-plain shadow-xl pt-2 px-3 my-3">
+                                <div class="card-header p-0 position-relative">
+                                    <a class="d-block blur-shadow-image">
+                                        <img src="assets/images/bg21.webp" alt="image"
+                                            class="img-fluid shadow border-radius-lg" loading="lazy">
+                                    </a>
+                                    <div class="mt-3 d-flex justify-content-between">
+                                        <h6 class="text-xs opacity-6">#css#coding</h6>
+                                        <h6 class="text-xs opacity-6"><i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                                    </div>
+                                </div>
+                                <div class="card-body px-0">
+                                    <h5 class="text-dark font-weight-bold mb-3">Bootstrap Your Projects</h5>
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="avatar avatar-sm shadow-xl position-relative z-index-2" src="assets/images/dp.webp" alt="dp" loading="lazy">
+                                            </div>
+                                            <div class="col-8 d-flex align-items-end ms-n1">
+                                                <p class="text-xs fw-bold">Admin <br> 5 Sep 2023</p>
+                                            </div>
+                                        </div>
+                                        <a href="pages.html">
+                                            <p class="text-info text-xs icon-move-right">Read More
+                                                <i class="fas fa-arrow-right text-xs ms-1"></i>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+        <div class="container z-index-1 position-relative">
+            <div class="row">
+                <div class="col-lg-4 me-auto mb-lg-0 mb-4 text-lg-start text-center">
+                    <h6 class="text-white font-weight-bolder mb-lg-4 mb-3">MomanyiSavvy</h6>
+    
+                    <div class="d-flex flex-column">
+                        <div class="d-flex p-2 text-white justify-content-lg-start justify-content-center">
+                            <div>
+                                <i class="fas fa-phone text-sm"></i>
+                            </div>
+                            <div class="ps-3">
+                                <span class="text-sm opacity-8">(+254) 700 013 897</span>
+                            </div>
+                        </div>
+    
+                        <div class="d-flex p-2 text-white justify-content-lg-start justify-content-center">
+                            <div>
+                                <i class="fas fa-envelope text-sm"></i>
+                            </div>
+                            <div class="ps-3">
+                                <span class="text-sm opacity-8">momanyiturner@gmail.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="d-flex p-2 text-white justify-content-lg-start justify-content-center">
+                            <div>
+                                <i class="fas fa-map-marker-alt text-sm"></i>
+                            </div>
+                            <div class="ps-3">
+                                <span class="text-sm opacity-8">Nairobi, Kenya</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col-lg-6 ms-auto text-lg-end text-center">
+                    <p class="mb-5 text-lg text-dark font-weight-bold text-white">
+                        The reward for getting on the stage is fame. The price of fame is you can’t get off the stage.
+                    </p>
+                    <a href="javascript:;" target="_blank" class="text-white me-xl-4 me-4 opacity-5">
+                        <span class="fab fa-linkedin"></span>
+                    </a>
+                    <a href="javascript:;" target="_blank" class="text-white opacity-5">
+                        <span class="fab fa-github"></span>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="row">
+                <p class="text-sm text-white text-center opacity-8 mb-0 mt-4">
+                    Copyright ©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> MomanyiSavvy
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button type="button" class="btn btn-info btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAPS JS -->
+    <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/plugins/parallax.min.js"></script>
+    <script src="assets/js/material-kit.min.js" type="text/javascript"></script>
+
+    <!-- CORE JS -->
+    <script src="assets/js/script.js" type="text/javascript"></script>
+</body>
+</html>
