@@ -12,6 +12,14 @@ body {
     -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
 }
 
+/* HOVER OUT */
+#content .card img {
+    transition: all 0.3s;
+}
+#content .card img:hover {
+    transform: scale(1.05);
+}
+
 
 /* MEDIA SCREENS */
 @media screen and (max-width: 767px){
