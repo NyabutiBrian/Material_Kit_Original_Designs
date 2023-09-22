@@ -1,0 +1,36 @@
+/* BACK TO TOP BUTTON */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: none;
+}
+
+/* NAVBAR HOVER */
+#navigation ul li a:hover,
+.footer a:hover {
+    color: #7b809a;
+}
+
+/* ZOOM TRANSITION OUT ALL PAGES */
+#techlogo,
+#projects .card,
+#intro img,
+#profile img,
+#educate .card {
+    transition: all 0.3s;
+}
+#techlogo:hover,
+#projects .card:hover,
+#intro img:hover,
+#profile img:hover,
+#educate .card:hover {
+    transform: scale(1.05);
+}
+/* ZOOM TRANSITION IN ALL PAGES */
+.header-2 img {
+    transition: all 0.3s;
+}
+.header-2 img:hover {
+    transform: scale(0.95);
+}
