@@ -1,3 +1,13 @@
+/* COLOR */
+body {
+    background-color: #091531;
+}
+
+.card,
+#contact .card-header {
+    background-color: #0c1d42;
+}
+
 /* BACK TO TOP BUTTON */
 #btn-back-to-top {
     position: fixed;
